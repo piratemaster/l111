@@ -347,36 +347,50 @@ public class Main  {
                 System.out.println("Введите номер задания");
                 int z = in.nextInt();
                 switch (z) {
-                    case 1: lab21();
-                    case 2: lab22();
-                    case 3: lab23();
-                    case 4: lab24();
-                    case 5: lab25();
-                    case 6: lab26();
-                    case 7: lab27();
+                    case 1: lab21(); System.exit(0);
+                    case 2: lab22(); System.exit(0);
+                    case 3: lab23(); System.exit(0);
+                    case 4: lab24(); System.exit(0);
+                    case 5: lab25(); System.exit(0);
+                    case 6: lab26(); System.exit(0);
+                    case 7: lab27(); System.exit(0);
                 }
             }
             case 3: {
                 System.out.println("Введите номер задания");
                 int z = in.nextInt();
                 switch (z) {
-                    case 1: lab31();
-                    case 2: lab32();
-                    case 3: lab33();
-                    case 4: lab34();
-                    case 5: lab35();
+                    case 1: lab31(); System.exit(0);
+                    case 2: lab32(); System.exit(0);
+                    case 3: lab33(); System.exit(0);
+                    case 4: lab34(); System.exit(0);
+                    case 5: lab35(); System.exit(0);
                 }
             }
             case 4: {
                 System.out.println("Введите номер задания");
                 int z = in.nextInt();
                 switch (z) {
-                    case 1: lab41();
-                    case 2: lab42();
-                    case 3: lab43();
-                    case 4: lab441();
+                    case 1: lab41(); System.exit(0);
+                    case 2: lab42(); System.exit(0);
+                    case 3: lab43(); System.exit(0);
+                    case 4: lab441(); System.exit(0);
+                }
+            }
+            case 5: {
+                circle a=new circle();
+                int xc=0;
+                int yc=0;
+                System.out.println("Введите номер задания");
+                int z = in.nextInt();
+                switch (z) {
+                    case 1: a.lab51(xc,yc); System.exit(0);
+                    case 2: a.lab52(); System.exit(0);
+                    case 3: lab43(); System.exit(0);
+                    case 4: lab441(); System.exit(0);
                 }
             }
         }
     }
 }
+
