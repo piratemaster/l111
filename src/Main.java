@@ -384,10 +384,17 @@ public class Main  {
                 System.out.println("Введите номер задания");
                 int z = in.nextInt();
                 switch (z) {
-                    case 1: a.lab51(xc,yc); System.exit(0);
+                    case 1: a.lab51(); System.exit(0);
                     case 2: a.lab52(); System.exit(0);
-                    case 3: lab43(); System.exit(0);
-                    case 4: lab441(); System.exit(0);
+                }
+            }
+            case 6: {
+                System.out.println("Введите номер задания");
+                int z = in.nextInt();
+                switch (z) {
+                    case 1: pegas a=new pegas(); a.fly(); System.exit(0);
+                    case 2: dog b=new dog(); b.infodog(); System.exit(0);
+                    case 3: cat c=new cat(); c.infocat(); System.exit(0);
                 }
             }
         }
