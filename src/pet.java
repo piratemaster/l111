@@ -16,13 +16,13 @@ public class pet {
     }
 }
 
-class dog extends pet{
+class dogg extends pet{
     public void infodog(){
         System.out.print("Собака\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }
 }
 
-class cat extends pet{
+class catt extends pet{
     public void infocat(){
         System.out.print("Кошка\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }
