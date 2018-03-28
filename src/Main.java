@@ -393,8 +393,8 @@ public class Main  {
                 int z = in.nextInt();
                 switch (z) {
                     case 1: pegas a=new pegas(); a.fly(); System.exit(0);
-                    case 2: dogg b=new dogg(); b.infodog(); System.exit(0);
-                    case 3: catt c=new catt(); c.infocat(); System.exit(0);
+                    case 2: dog b=new dog(); b.infodog(); System.exit(0);
+                    case 3: cat c=new cat(); c.infocat(); System.exit(0);
                 }
             }
             case 7: {
@@ -405,7 +405,6 @@ public class Main  {
                     case 2: Dog b=new Dog(); b.getChild(); System.exit(0);
                     case 3: Cat c=new Cat(); c.getChild(); System.exit(0);
                     case 4: lab73 d=new lab73(); String s=""; int i=0; d.print(s); d.print(i); System.exit(0);
-                    case 5: lab73 e=new lab73(); e.lab733(); System.exit(0);
                 }
             }
         }

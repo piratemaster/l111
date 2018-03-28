@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pet {
+public abstract class pet {
     protected float weight;
     protected String name;
     protected String sex;
@@ -16,13 +16,13 @@ public class pet {
     }
 }
 
-class dogg extends pet{
+class dog extends pet{
     public void infodog(){
         System.out.print("Собака\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }
 }
 
-class catt extends pet{
+class cat extends pet{
     public void infocat(){
         System.out.print("Кошка\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }

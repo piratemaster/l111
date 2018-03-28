@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class lab71 {
 }
 class Cow
@@ -70,15 +69,15 @@ class lab73{
         else return b;
     }
     public static int max(int a, int b){
-        if(a<b) return a;
+        if(a>b) return a;
         else return b;
     }
     public static long max(long a, long b){
-        if(a<b) return a;
+        if(a>b) return a;
         else return b;
     }
     public static double max(double a, double b){
-        if(a<b) return a;
+        if(a>b) return a;
         else return b;
     }
 }

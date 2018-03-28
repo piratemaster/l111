@@ -30,5 +30,7 @@ public class circle {
         System.out.println("Центр 1:\t("+Integer.toString(circle1[0])+";"+Integer.toString(circle1[1])+")");
         System.out.println("Центр 2:\t("+Integer.toString(circle2[0])+";"+Integer.toString(circle2[1])+")");
         System.out.println("Расстояние от центров:\t"+Double.toString(g));
+        if(g<=2*r) System.out.println("Соприкасаются");
+        else System.out.println("Не соприкасаются");
     }
 }
