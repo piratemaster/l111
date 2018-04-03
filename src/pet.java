@@ -4,7 +4,7 @@ public abstract class pet {
     protected float weight;
     protected String name;
     protected String sex;
-    protected pet(){
+    public pet(){
         Scanner in = new Scanner(System.in);
         System.out.print("Кличка:\t");
         name=in.nextLine();
@@ -16,13 +16,19 @@ public abstract class pet {
     }
 }
 
-class dog extends pet{
+class doog extends pet{
+    public doog(){
+        super();
+    }
     public void infodog(){
         System.out.print("Собака\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }
 }
 
-class cat extends pet{
+class caat extends pet{
+    public caat(){
+        super();
+    }
     public void infocat(){
         System.out.print("Кошка\nКличка:\t"+name+"\nВес:\t"+Float.toString(weight)+"\nПол:\t"+sex);
     }

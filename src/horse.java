@@ -10,6 +10,9 @@ public class horse {
 }
 
 class pegas extends horse{
+    public pegas(){
+        super();
+    }
     public void fly(){
         System.out.println(name+" Полет");
     }

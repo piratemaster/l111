@@ -15,9 +15,13 @@ public class Main  {
         System.out.println("\nЛаб 2.2");
         Scanner in = new Scanner(System.in);
         System.out.print("M:\t");
-        int m=in.nextInt();
+        int m=0;
+        if(in.hasNextInt()) m=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("N:\t");
-        int n=in.nextInt();
+        int n=0;
+        if(in.hasNextInt()) n=in.nextInt();
+        else System.out.println("Введены неверные значения");
         for(int i=0; i<m; i++)
         {
             for(int j=0; j<n; j++)
@@ -53,9 +57,11 @@ public class Main  {
         System.out.println("\nЛаб 2.4");
         System.out.print("M:\t");
         Scanner in = new Scanner(System.in);
-        int m=in.nextInt();
+        int m=0;
+        if(in.hasNextInt()) m=in.nextInt();
         System.out.print("N:\t");
-        int n=in.nextInt();
+        int n=0;
+        if(in.hasNextInt()) n=in.nextInt();
         if(min(m,n)!=0) System.out.println(min(m,n));
         else System.out.println("Числа равны");
     }
@@ -77,13 +83,21 @@ public class Main  {
         System.out.println("\nЛаб 2.6");
         System.out.print("M:\t");
         Scanner in = new Scanner(System.in);
-        int m=in.nextInt();
+        int m=0;
+        if(in.hasNextInt()) m=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("N:\t");
-        int n=in.nextInt();
+        int n=0;
+        if(in.hasNextInt()) n=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("a:\t");
-        int a=in.nextInt();
+        int a=0;
+        if(in.hasNextInt()) a=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b:\t");
-        int b=in.nextInt();
+        int b=0;
+        if(in.hasNextInt()) b=in.nextInt();
+        else System.out.println("Введены неверные значения");
         min(m,n,a,b);
     }
     private static void lab27()
@@ -91,9 +105,12 @@ public class Main  {
         System.out.println("\nЛаб 2.7");
         System.out.print("X:\t");
         Scanner in = new Scanner(System.in);
-        int x=in.nextInt();
+        int x=0;
+        if(in.hasNextInt()) x=in.nextInt();
         System.out.print("Y:\t");
-        int y=in.nextInt();
+        int y=0;
+        if(in.hasNextInt()) y=in.nextInt();
+        else System.out.println("Введены неверные значения");
         if(x>0) {
             if (y > 0) System.out.println("I четверть");
             if (y < 0) System.out.println("IV четверть");
@@ -230,9 +247,13 @@ public class Main  {
     {
         Scanner in = new Scanner(System.in);
         System.out.print("a:\t");
-        int a=in.nextInt();
+        int a=0;
+        if(in.hasNextInt()) a=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b:\t");
-        int b=in.nextInt();
+        int b=0;
+        if(in.hasNextInt()) b=in.nextInt();
+        else System.out.println("Введены неверные значения");
         for(int i=0; i<20; i++)
         {
             System.out.print(lab411(a,b)[i]);
@@ -244,25 +265,45 @@ public class Main  {
     {
         Scanner in = new Scanner(System.in);
         System.out.print("a1:\t");
-        int a1=in.nextInt();
+        int a1=0;
+        if(in.hasNextInt()) a1=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b1:\t");
-        int b1=in.nextInt();
+        int b1=0;
+        if(in.hasNextInt()) b1=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("a2:\t");
-        int a2=in.nextInt();
+        int a2=0;
+        if(in.hasNextInt()) a2=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b2:\t");
-        int b2=in.nextInt();
+        int b2=0;
+        if(in.hasNextInt()) b2=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("a3:\t");
-        int a3=in.nextInt();
+        int a3=0;
+        if(in.hasNextInt()) a3=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b3:\t");
-        int b3=in.nextInt();
+        int b3=0;
+        if(in.hasNextInt()) b3=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("a4:\t");
-        int a4=in.nextInt();
+        int a4=0;
+        if(in.hasNextInt()) a4=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b4:\t");
-        int b4=in.nextInt();
+        int b4=0;
+        if(in.hasNextInt()) b4=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("a5:\t");
-        int a5=in.nextInt();
+        int a5=0;
+        if(in.hasNextInt()) a5=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b5:\t");
-        int b5=in.nextInt();
+        int b5=0;
+        if(in.hasNextInt()) b5=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.println("1:\t");
         for(int i=0; i<20; i++)
         {
@@ -298,9 +339,13 @@ public class Main  {
     {
         Scanner in = new Scanner(System.in);
         System.out.print("a:\t");
-        int a2=in.nextInt();
+        int a2=0;
+        if(in.hasNextInt()) a2=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("b:\t");
-        int b2=in.nextInt();
+        int b2=0;
+        if(in.hasNextInt()) b2=in.nextInt();
+        else System.out.println("Введены неверные значения");
         int[] mass=lab411(a2,b2);
         for(int i=0; i<19; i++)
         {
@@ -340,12 +385,16 @@ public class Main  {
     public static void main(String[] args) {
         System.out.println("Введите номер лабораторной");
         Scanner in = new Scanner(System.in);
-        int x=in.nextInt();
+        int x=0;
+        if(in.hasNextInt()) x=in.nextInt();
+        else System.out.println("Введены неверные значения");
         switch (x) {
             case 1:     System.out.println("Лаб1\nHello World!");
             case 2: {
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: lab21(); System.exit(0);
                     case 2: lab22(); System.exit(0);
@@ -358,7 +407,9 @@ public class Main  {
             }
             case 3: {
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: lab31(); System.exit(0);
                     case 2: lab32(); System.exit(0);
@@ -369,7 +420,9 @@ public class Main  {
             }
             case 4: {
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: lab41(); System.exit(0);
                     case 2: lab42(); System.exit(0);
@@ -379,10 +432,10 @@ public class Main  {
             }
             case 5: {
                 circle a=new circle();
-                int xc=0;
-                int yc=0;
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: a.lab51(); System.exit(0);
                     case 2: a.lab52(); System.exit(0);
@@ -390,21 +443,37 @@ public class Main  {
             }
             case 6: {
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: pegas a=new pegas(); a.fly(); System.exit(0);
-                    case 2: dog b=new dog(); b.infodog(); System.exit(0);
-                    case 3: cat c=new cat(); c.infocat(); System.exit(0);
+                    case 2: doog b=new doog(); b.infodog(); System.exit(0);
+                    case 3: caat c=new caat(); c.infocat(); System.exit(0);
                 }
             }
             case 7: {
                 System.out.println("Введите номер задания");
-                int z = in.nextInt();
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
                 switch (z) {
                     case 1: Whale a=new Whale(); a.printAll(); System.exit(0);
-                    case 2: Dog b=new Dog(); b.getChild(); System.exit(0);
-                    case 3: Cat c=new Cat(); c.getChild(); System.exit(0);
+                    case 2: Dogs b=new Dogs(); b.getChild(); System.exit(0);
+                    case 3: Cats c=new Cats(); c.getChild(); System.exit(0);
                     case 4: lab73 d=new lab73(); String s=""; int i=0; d.print(s); d.print(i); System.exit(0);
+                }
+            }
+            case 8: {
+                System.out.println("Введите номер задания");
+                int z=0;
+                if(in.hasNextInt()) z=in.nextInt();
+                else System.out.println("Введены неверные значения");
+                switch (z) {
+                    case 1: lab8.lab81(); System.exit(0);
+                    case 2: lab8.lab82(); System.exit(0);
+                    case 3: lab8.lab83(); System.exit(0);
+                    case 4: lab8.lab86(); System.exit(0);
                 }
             }
         }

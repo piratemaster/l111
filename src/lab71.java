@@ -28,13 +28,19 @@ class Whale extends Cow
 
 //lab72
 
-class Cat{
+class Cats{
+    public Cats(){
+        super();
+    }
     public void getChild(){
         System.out.println("Котенок");
     }
 }
 
-class Dog extends Cat{
+class Dogs extends Cats{
+    public Dogs(){
+        super();
+    }
     public void getChild(){
         System.out.println("Щенок");
     }
