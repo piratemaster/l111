@@ -10,11 +10,13 @@ abstract class Pets{
     public Pets(){
         Scanner in = new Scanner(System.in);
         System.out.print("Age:\t");
-        age=in.nextInt();
+        if(in.hasNextInt()) age=in.nextInt();
+        else System.out.println("Введены неверные значения");
         System.out.print("Name:\t");
         name=in.nextLine();
         System.out.print("Hungry:\t");
-        hungry=in.nextBoolean();
+        if(in.hasNextBoolean()) hungry=in.nextBoolean();
+        else System.out.println("Введены неверные значения");
     }
     public abstract void voice();
 }

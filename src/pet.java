@@ -9,7 +9,8 @@ public abstract class pet {
         System.out.print("Кличка:\t");
         name=in.nextLine();
         System.out.print("Вес:\t");
-        weight=in.nextFloat();
+        if(in.hasNextFloat()) weight=in.nextFloat();
+        else System.out.println("Введены неверные значения");
         System.out.print("Пол:\t");
         in.nextLine();
         sex=in.nextLine();
